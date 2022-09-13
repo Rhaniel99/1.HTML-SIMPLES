@@ -1,0 +1,25 @@
+.menu{
+	background-color: blue;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+.menu button{
+	list-style: none;
+	display: inline;
+}
+.menu a{
+		text-decoration: none;
+}
+.menu a:hover{
+		text-decoration: none;
+}
+.assunto{
+	min-width: 600px;
+	background-color: yellow;
+	padding-top: 20px;
+	overflow: auto;
+	border-radius: 5px;
+}
+.titulo{
+	
+}
