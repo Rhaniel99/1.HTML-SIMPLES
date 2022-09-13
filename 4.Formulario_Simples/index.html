@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="style.css">
+    <title>Cadastro Alunos</title>
+</head>
+<body>
+    <div id="formulario">
+		<h2>Cadastro</h2>
+		<form>
+			<label>Nome:</label><br>
+			<input type="text" name="nome"
+			placeholder="Insira nome de usuario:"
+			required class="campotxt">
+			
+			<label>E-mail:</label>
+			<input type="E-mail" name="email"
+			placeholder="email@gmail.com" required class="campotxt">
+			
+			<label>Senha:</label>
+			<input type="password" name="senha" required class="campotxt">
+			
+			<label>Confirmação da Senha:</label>
+			<input type="password" name="senha2" required class="campotxt">
+			
+			<label>Unidade:</label>
+			<select>
+				<option>CIN</option>
+				<option>José Tadros</option>
+				<option>Pequeno Franco</option>
+			</select>
+			
+			<label>Sexo:</label>
+			<input type="radio" name="s" value="f">
+			Feminino
+			<input type="radio" name="s" value="m">
+			Masculino
+			
+			<label>Disponibilidade Horário:</label>
+			<input type="checkbox" name="">Manhã
+			<input type="checkbox" name="">Tarde
+			<input type="checkbox" name="">Noite
+
+			<label>Informações Adicionais</label>
+			<textarea cols="40"></textarea>
+
+			<br><input type="submit" name="" value="Cadastrar">
+			<input type="reset" name="" value="Limpar">
+		</form>
+		<br>
+	</div>
+</body>
+</html>
