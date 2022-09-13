@@ -1,0 +1,12 @@
+.form1{
+	height: 50%;
+	width: 37%;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 10% 30%;
+}
+h2{
+	text-align: center;
+	color: blue;
+	font-family: cursive;
+}
